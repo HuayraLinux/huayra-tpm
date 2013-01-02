@@ -1,4 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=TPM Agent
-Exec=sudo /usr/bin/theftdeterrent.sh
