@@ -1,0 +1,14 @@
+Source: huayra-tpm
+Section: utils
+Priority: extra
+Maintainer: Miguel Angel Garcia <miguel.garcia@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Vcs-Git: git@200.55.245.7:/huayra-tpm.git
+
+Package: huayra-tpm
+Architecture: i386
+Section: utils
+Priority: extra
+Pre-Depends: libtdagent, libgtk2.0-0, libnotify4
+Description: Libraries and Agent of Theft Deterrent

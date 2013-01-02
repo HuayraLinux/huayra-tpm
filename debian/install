@@ -1,0 +1,4 @@
+libtdagent/* /
+tdagent/* /
+org.freedesktop.Notifications.service /usr/share/dbus-1/services/
+debian/huayra-tpm.sudo /etc/sudoers.d/

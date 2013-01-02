@@ -1,0 +1,86 @@
+#!/bin/sh
+# prerm script for tdagent
+#
+# see: dh_installdeb(1)
+
+set -e
+
+# summary of how this script can be called:
+#        * <prerm> `remove'
+#        * <old-prerm> `upgrade' <new-version>
+#        * <new-prerm> `failed-upgrade' <old-version>
+#        * <conflictor's-prerm> `remove' `in-favour' <package> <new-version>
+#        * <deconfigured's-prerm> `deconfigure' `in-favour'
+#          <package-being-installed> <version> `removing'
+#          <conflicting-package> <version>
+# for details, see http://www.debian.org/doc/debian-policy/ or
+# the debian-policy package
+
+
+case "$1" in
+    remove|purge)
+	if [ -f /usr/lib/libtddl.so ]
+	then
+		rm -fr /usr/lib/libtddl.so
+	fi
+	if [ -f /usr/lib/libtsp.so ]
+	then
+		rm -fr /usr/lib/libtsp.so
+	fi
+	if [ -f /usr/lib/libtddl.so.1 ]
+	then
+		rm -fr /usr/lib/libtddl.so.1
+	fi
+	if [ -f /usr/lib/libtsp.so.1 ]
+	then
+		rm -fr /usr/lib/libtsp.so.1
+	fi
+	if [ -f /usr/lib/libegg.so ]
+	then
+		rm -fr /usr/lib/libegg.so
+	fi
+	if [ -f /usr/lib/liblowlevel_tray.so ]
+	then
+		rm -fr /usr/lib/liblowlevel_tray.so
+	fi
+    ;;
+    upgrade|deconfigure)
+    ;;
+
+    failed-upgrade)
+    ;;
+
+    *)
+        echo "prerm called with unknown argument \`$1'" >&2
+    ;;
+esac
+
+case "$1" in
+    remove|purge)
+	if pidof theftdeterrent
+	then
+		killall -9 theftdeterrent
+	fi
+	if pidof tcsd
+	then
+		killall -9 tcsd
+	fi
+	if [ -f /tmp/tdagent.log ]
+	then
+		rm /tmp/tdagent.log
+	fi
+    ;;
+    upgrade|deconfigure)
+    ;;
+
+    failed-upgrade)
+    ;;
+
+    *)
+        echo "prerm called with unknown argument \`$1'" >&2
+    ;;
+esac
+
+exit 0
+
+

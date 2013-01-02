@@ -1,0 +1,30 @@
+#!/bin/sh
+
+if [ ! -f /usr/lib/libtddl.so ] ; then
+        ln /usr/lib/libtddl.so.1 /usr/lib/libtddl.so
+fi
+
+if [ ! -f /usr/lib/libtsp.so ] ; then
+        ln /usr/lib/libtsp.so.1 /usr/lib/libtsp.so
+fi
+
+which insserv
+
+if [ $? -eq 0 ]; then
+	insserv -d /etc/init.d/tcsd
+elif [ ! -f /etc/rc2.d/S199tcsd ] ; then
+        ln -s /etc/init.d/tcsd /etc/rc2.d/S199tcsd
+fi
+
+ldconfig
+
+#sed -i '/?*\/theftdeterrent.sh &/d' /etc/profile;
+
+#echo "sudo /usr/bin/theftdeterrent.sh &" >> /etc/profile;
+
+#sed -i '/umask 022/d' /etc/profile
+#echo "umask 022" >> /etc/profile
+
+
+#echo "127.0.1.1	EXOMATE" >> /etc/hosts
+exit 0
