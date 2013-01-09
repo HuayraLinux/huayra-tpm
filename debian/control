@@ -11,4 +11,5 @@ Architecture: i386
 Section: utils
 Priority: extra
 Depends: libgtk2.0-0, libnotify4
+Conflicts: tdagent, libtdagent
 Description: Libraries and Agent of Theft Deterrent
