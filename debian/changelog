@@ -1,3 +1,9 @@
+huayra-tpm (2.0.0.116-3) testing; urgency=low
+
+  * Mejoras en ./tdagent/etc/xdg/autostart/theftdeterrent.desktop
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Wed, 16 Jan 2013 12:16:32 -0300
+
 huayra-tpm (2.0.0.116-2) testing; urgency=low
 
   * Conflicts: tdagent, libtdagent
