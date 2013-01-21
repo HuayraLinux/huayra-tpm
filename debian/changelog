@@ -1,3 +1,9 @@
+huayra-tpm (2.0.0.116-4) testing; urgency=low
+
+  * Default PromptDays=10
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 21 Jan 2013 15:02:45 -0300
+
 huayra-tpm (2.0.0.116-3) testing; urgency=low
 
   * Mejoras en ./tdagent/etc/xdg/autostart/theftdeterrent.desktop
