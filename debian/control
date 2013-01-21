@@ -4,12 +4,12 @@ Priority: extra
 Maintainer: Miguel Angel Garcia <miguel.garcia@gmail.com>
 Build-Depends: debhelper (>= 8.0.0), libnotify4, libssl1.0.0, libatk1.0-0, libpango1.0-0, libgtk2.0-0
 Standards-Version: 3.9.3
-Vcs-Git: git@200.55.245.7:/huayra-tpm.git
+Vcs-Git: ssh://git@200.55.245.7/huayra-tpm.git
 
 Package: huayra-tpm
 Architecture: i386
 Section: utils
 Priority: extra
-Depends: libgtk2.0-0, libnotify4
+Depends: ${misc:Depends}, libgtk2.0-0, libnotify4
 Conflicts: tdagent, libtdagent
 Description: Libraries and Agent of Theft Deterrent
