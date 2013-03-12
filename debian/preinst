@@ -1,8 +1,0 @@
-#!/bin/sh
-
-# Delete old non configuration files
-rm -rf `find /etc/theftdeterrent/ -type f | grep -v .ini`
-
-#DEBHELPER#
-
-exit 0
