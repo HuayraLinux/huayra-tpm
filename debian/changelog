@@ -1,3 +1,11 @@
+huayra-tpm (2.0.0.116-6) testing; urgency=low
+
+  * New release
+  * PromptDays=20
+  * PromptTimes=40
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Tue, 12 Mar 2013 12:37:41 -0300
+
 huayra-tpm (2.0.0.116-5) testing; urgency=low
 
   * debian/source/options
