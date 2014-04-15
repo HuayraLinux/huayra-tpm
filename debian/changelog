@@ -1,3 +1,9 @@
+huayra-tpm (2.0.0.116-8) unstable; urgency=low
+
+  * nueva version
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Tue, 15 Apr 2014 16:06:41 -0300
+
 huayra-tpm (2.0.0.116-7) testing; urgency=low
 
   * Correccion autostart

@@ -3,6 +3,8 @@ T_strTCAgentTitle = Theft Deterrent - Server Settings
 T_strBtnOK = OK
 T_strBtnCancel = Cancel
 T_strBtnApply = Apply
+T_strBtnConnect = Connect
+T_strBtnPrompt = Connecting, please wait...
 T_strlabServer = Theft Deterrent Server Address:
 T_strlabProxy = Theft Deterrent Proxy Server:
 T_strlabProxyName = Theft Deterrent Proxy User Name:
@@ -71,5 +73,5 @@ G_strMenuItemLogin = Log onto server
 G_strMenuItemSettings = Settings
 G_strMenuItemHelp = Help
 A_strTitle = About Theft Deterrent Agent
-A_strLicense = Theft Deterrent Agent\nVersion 2.0.0.106-2\n\nCopyright(c) 2013 Intel Corporation.\nAll rights reserved.
+A_strLicense = Theft Deterrent Agent\nVersion 2.0.0.106-3-i386(10324)\n\nCopyright(c) 2013 Intel Corporation.\nAll rights reserved.
 

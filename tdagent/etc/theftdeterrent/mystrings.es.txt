@@ -1,8 +1,10 @@
-﻿#Classmate PC TheftDeterrent Resource (english)
+#Classmate PC TheftDeterrent Resource (english)
 T_strTCAgentTitle = Configuración de Theft Deterrent Server
 T_strBtnOK = Aceptar
 T_strBtnCancel = Cancelar
 T_strBtnApply = Aplicar
+T_strBtnConnect = Conectar
+T_strBtnPrompt = Conectando. Espere...
 T_strlabServer = Dirección de Theft Deterrent Server:
 T_strlabProxy = Servidor proxy de Theft Deterrent:
 T_strlabProxyName = Nombre de usuario de servidor proxy:
@@ -71,5 +73,5 @@ G_strMenuItemLogin = Iniciar sesión en el servidor
 G_strMenuItemSettings = Configuración							
 G_strMenuItemHelp = Ayuda
 A_strTitle = Acerca de Theft Deterrent Agent
-A_strLicense = Theft Deterrent Agent\nVersión 2.0.0.106-2\n\nCopyright(c) 2013 Intel Corporation.\nReservados todos los derechos.
+A_strLicense = Theft Deterrent Agent\nVersión 2.0.0.106-3-i386(10324)\n\nCopyright(c) 2013 Intel Corporation.\nReservados todos los derechos.
 

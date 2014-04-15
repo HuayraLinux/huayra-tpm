@@ -1,8 +1,10 @@
-﻿#Classmate PC TheftDeterrent Resource (português)
+#Classmate PC TheftDeterrent Resource (português)
 T_strTCAgentTitle = Agente Anti-Roubo do Intel(R) Classmate PC
 T_strBtnOK = Ok
 T_strBtnCancel = Cancelar
 T_strBtnApply = Aplicar
+T_strBtnConnect = Conectar
+T_strBtnPrompt = Conectando, aguarde...
 T_strlabServer = Endereço do Servidor Anti-Roubo:
 T_strlabProxy = Proxy do Servidor Anti-Roubo:
 T_strlabProxyName = Nome de usuário do Proxy Anti-Roubo:
@@ -71,4 +73,4 @@ G_strMenuItemSettings = Configurações
 G_strMenuItemHelp = Por favor me ajude...
 G_strDownloadCASuceed = Erro de Verificação do Root CA, o pacote root CA foi baixado novamente! 
 A_strTitle = Sobre o Theft Deterrent Agent
-A_strLicense = Theft Deterrent Agent\nVersión 2.0.0.106-2\n\nCopyright(c) 2010 Intel Corporation.\nTodos os direitos reservados.
+A_strLicense = Theft Deterrent Agent\nVersión 2.0.0.106-3-i386(10324)\n\nCopyright(c) 2010 Intel Corporation.\nTodos os direitos reservados.
