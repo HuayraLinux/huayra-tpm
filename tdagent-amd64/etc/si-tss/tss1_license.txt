@@ -1,0 +1,9 @@
+Licensor: Security Innovation, Inc.
+Contact: support@securityinnovation.com
+Format: 01
+Licensee: End User
+Product: SI TSS
+Version: 1.2.1.45
+Expiration: Never
+License Number: 53074e679723eac7a0badfc7b81af9f02ce2ec13
+License Code: 97fa01379782708354b49454f9757cb98fd7837a

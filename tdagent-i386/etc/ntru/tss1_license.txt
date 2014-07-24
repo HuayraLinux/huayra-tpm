@@ -1,0 +1,9 @@
+Licensor: NTRU Cryptosystems, Inc.
+Contact: tss-support@ntru.com
+Format: 01
+Licensee: Winbond Electronics Corporation
+Product: NTRU Core 1 TSS
+Version: 1.2.1.25
+Expiration: Never
+License Number: 6619eba22807c17faf51887b099ae7f132c1d253
+License Code: 9fd1b9931c826384dc4ea72ee1e748e7a246aac4
