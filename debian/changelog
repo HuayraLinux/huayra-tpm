@@ -1,3 +1,9 @@
+huayra-tpm (2.0.0.117-2) unstable; urgency=low
+
+  * Fix campo version en autostart amd64 
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Tue, 12 Aug 2014 12:51:12 -0300
+
 huayra-tpm (2.0.0.117-1) unstable; urgency=low
 
   * Cambio numero de version para poder subir al repo
