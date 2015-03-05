@@ -1,3 +1,9 @@
+huayra-tpm (2.0.0.117-3) torbellino; urgency=medium
+
+  * Quitando servicio de dbus que genera conflicto con mate-notificaction-daemon
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 05 Mar 2015 15:35:32 -0300
+
 huayra-tpm (2.0.0.117-2) unstable; urgency=low
 
   * Fix campo version en autostart amd64 

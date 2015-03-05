@@ -1,2 +1,1 @@
-org.freedesktop.Notifications.service /usr/share/dbus-1/services/
 debian/huayra_tpm_sudo /etc/sudoers.d/
