@@ -1,3 +1,9 @@
+huayra-tpm (2.0.0.117.4) unstable; urgency=medium
+
+  * reempaquetado para pruebas de libssl
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 27 Oct 2016 12:34:51 -0300
+
 huayra-tpm (2.0.0.117-3) torbellino; urgency=medium
 
   * Quitando servicio de dbus que genera conflicto con mate-notificaction-daemon

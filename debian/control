@@ -1,17 +1,20 @@
 Source: huayra-tpm
 Section: non-free/utils
 Priority: extra
-Maintainer: Miguel Angel Garcia <miguel.garcia@gmail.com>
-Build-Depends: debhelper (>= 8.0.0), libnotify4, libssl1.0.0, libatk1.0-0,
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
+Build-Depends: debhelper (>= 9.0.0), libnotify4, libssl1.0.0, libatk1.0-0,
  libpango1.0-0, libgtk2.0-0
-Standards-Version: 3.9.3
-Vcs-Git: git@devel.huayra.conectarigualdad.gob.ar:/huayra-tpm.git
+Standards-Version: 3.9.6
+Vcs-Git: https://github.com/HuayarLinux/huayra-tpm.git
 
 Package: huayra-tpm
-Architecture: any
+Architecture: i386 amd64
 Section: non-free/utils
 Priority: extra
 Depends: ${misc:Depends}, libnotify4, libssl1.0.0, libatk1.0-0,
  libpango1.0-0, libgtk2.0-0
 Conflicts: tdagent, libtdagent
-Description: Libraries and Agent of Theft Deterrent
+Description: Libraries and Agent of Theft Deterrent for Huayra
+ Este paquete contiene el Agente de seguridad ThefDeterrent para
+ Huayra GNU/Linux.
+
